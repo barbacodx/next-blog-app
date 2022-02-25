@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Next.js Blog + Sanity
+
+This is a [Next.js](https://nextjs.org/) Blog project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+- NodeJS 8, Next.js 12, Typescript
+- styles: Tailwindcss, postcss
+- backend: [Sanity](https://www.sanity.io/)
+- articles, category, comments
+
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="page-blog-sample.jpg" width="960" alt="Sample Blog NextJs" /></a>
+</p>
+
 
 ## Getting Started
 
-First, run the development server:
+If you're running your own [Sanity Docs](https://www.sanity.io/docs/getting-started) project with the example movie dataset, go to `lib/sanity.js` and change the following lines:
+
+```
+  projectId: 'YOUR_PROJECT_ID',
+  dataset: 'NAME_OF_YOUR_DATASET',
+```
+
+Setup .env.local file setup for production
+
+```
+ NEXT_PUBLIC_SANITY_DATASET=
+ NEXT_PUBLIC_SANITY_PROJECT_ID=
+ SANITY_API_TOKEN=
+```
+Run Sanity local app, go into directory /blogappdemo:
+
+```bash
+sanity start
+```
+Open http://localhost:3333 with your browser to see the result.
+
+First, run the development server Blog:
 
 ```bash
 npm run dev

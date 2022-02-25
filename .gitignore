@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+blogappdemo/node_modules
+blogappdemo/dist
+
 # testing
 /coverage
 
