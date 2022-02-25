@@ -22,7 +22,7 @@ If you're running your own [Sanity Docs](https://www.sanity.io/docs/getting-star
   dataset: 'NAME_OF_YOUR_DATASET',
 ```
 
-Setup .env.local file setup for production
+Create your ".env.local file" - setup for production
 
 ```
  NEXT_PUBLIC_SANITY_DATASET=
