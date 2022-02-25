@@ -9,7 +9,7 @@ This is a [Next.js](https://nextjs.org/) Blog project bootstrapped with [`create
 - articles, category, comments
 
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="page-blog-sample.jpg" width="960" alt="Sample Blog NextJs" /></a>
+  <a href="http://nextjs.org/" target="blank"><img src="page-blog-sample.jpg" width="960" alt="Sample Blog NextJs" /></a>
 </p>
 
 
