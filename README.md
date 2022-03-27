@@ -3,7 +3,7 @@
 
 This is a [Next.js](https://nextjs.org/) Blog project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-- NodeJS 8, Next.js 12, Typescript
+- Node, Next.js 12, Typescript
 - styles: Tailwindcss, postcss
 - backend: [Sanity](https://www.sanity.io/)
 - articles, category, comments
